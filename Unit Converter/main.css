@@ -2,7 +2,7 @@ html,
 body {
   font-family: "Times New Roman", Times, serif;
   width: auto;
-  height: 100%;
+  height: 90%;
 }
 .first-section {
   display: flex;
