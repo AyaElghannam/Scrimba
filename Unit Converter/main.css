@@ -1,0 +1,85 @@
+html,
+body {
+  font-family: "Times New Roman", Times, serif;
+  width: auto;
+  height: 100%;
+}
+.first-section {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  padding: 5px;
+  height: 50%;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+  background-image: linear-gradient(
+    45deg,
+    hsl(217deg 84% 55%) 0%,
+    hsl(208deg 100% 47%) 11%,
+    hsl(206deg 100% 48%) 22%,
+    hsl(203deg 100% 48%) 33%,
+    hsl(201deg 100% 47%) 44%,
+    hsl(198deg 100% 47%) 56%,
+    hsl(195deg 100% 46%) 67%,
+    hsl(193deg 100% 45%) 78%,
+    hsl(190deg 100% 44%) 89%,
+    hsl(189, 73%, 53%) 100%
+  );
+  border-radius: 20px;
+}
+
+.general {
+  width: 70%;
+  align-self: center;
+  margin: 1px;
+}
+.sectionOne {
+  flex: 1;
+}
+.sectionTwo {
+  flex: 2;
+}
+.sectionThree {
+  flex: 1;
+}
+.second-section {
+  width: auto;
+  height: 50%;
+  text-align: center;
+  margin: 5px 5px 5px 5px;
+  border: #30c4df solid;
+  border-radius: 20px;
+}
+form {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+input[type="text"] {
+  text-decoration: solid;
+  font-size: 100%;
+  font-weight: bold;
+  height: 100%;
+  text-align: center;
+  background: transparent;
+  border: none;
+}
+
+p {
+  font-family: sans-serif;
+}
+button {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  font-size: 20px;
+  background-color: #30c4df;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
