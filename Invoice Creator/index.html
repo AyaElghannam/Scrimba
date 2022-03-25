@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice Creator</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+  </head>
+  <body>
+    <div id="first-section">
+      <h1 id="header">Invoice Creator</h1>
+      <p id="help-note">Thanks for choosing GoodCorp, LLC!</p>
+    </div>
+    <div id="second-section">
+      <button id="wash-car" value="10">Wash Car: $10</button>
+      <button id="mow-lawn" value="20">Mow Lawn: $20</button>
+      <button id="pull-weeds" value="30">Pull Weeds: 30$</button>
+    </div>
+    <div id="third-section">
+      <span class="text task">Task</span>
+      <span class="text total">Total</span>
+      <br />
+      <ul id="added"></ul>
+      <hr />
+      <span class="text task">Notes</span>
+      <span class="text total">Total Amount</span>
+      <br />
+      <p id="Tot-money"><span>$</span>0</p>
+    </div>
+    <div id="fourth-section">
+      <button id="mail">
+        <img src="./icons/email.svg" class="icon" />
+        Send invoice
+      </button>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
